@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial;
+    background: white;
+    color: black;
+}
+
+.cv {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+}
+
+.gauche {
+    width: 30%;
+    background: #304956;
+    color: white;
+    padding: 20px;
+}
+
+.droite {
+    width: 70%;
+    padding: 30px;
+}
+
+.gauche h1 {
+    font-size: 38px;
+}
+
+.information {
+    border: 1px solid white;
+    padding: 15px;
+}
+
+.droite h2 {
+    font-size: 30px;
+    border-bottom: 3px solid #304956;
+}
+
+.stage {
+    margin-bottom: 25px;
+}
+
+.job {
+    margin-bottom: 25px;
+}
+
+.formation {
+    margin-bottom: 25px;
+}
+
+.droite h3 {
+    font-weight: normal;
+}
+
+li {
+    margin-bottom: 10px;
+}
